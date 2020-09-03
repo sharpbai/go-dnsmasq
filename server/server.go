@@ -12,9 +12,9 @@ import (
 	"sync"
 	"time"
 
-	log "github.com/Sirupsen/logrus"
+	"github.com/sharpbai/go-dnsmasq/cache"
 	"github.com/coreos/go-systemd/activation"
-	"github.com/janeczku/go-dnsmasq/cache"
+	log "github.com/sirupsen/logrus"
 	"github.com/miekg/dns"
 )
 
